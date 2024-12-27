@@ -1,16 +1,22 @@
-# my_project
+# My Flutter App
 
-A new Flutter project.
+A simple Flutter application using Firebase for authentication. This app supports user login and registration using email and password with Firebase Authentication.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- User sign-up and login using email and password
+- Firebase Authentication integration
+- Persistent user login (auto-login after app restart)
+- Manage Products..
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter 3.x or higher
+- Android Studio or any preferred IDE for Flutter development
+- Firebase project with Authentication enabled
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/firass99/my_flutter_app.git

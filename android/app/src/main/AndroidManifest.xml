@@ -1,0 +1,24 @@
+<?xml version="2.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        ackage="com.example.my_project">
+
+    <application
+        android:name="${applicationName}"
+        android:label="Flutter App"
+        android:icon="@mipmap/ic_launcher">
+        <!-- Ensure the Flutter activity is the main launcher activity -->
+        <activity
+            android:name="io.flutter.app.FlutterActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|screenLayout|layoutDirection|fontScale|locale|layoutDirection"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
